@@ -1,0 +1,287 @@
+$date
+	Mon Oct 14 21:56:10 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module test $end
+$var wire 8 ! memory [7:0] $end
+$var wire 16 " led [15:0] $end
+$var wire 1 # Q $end
+$var wire 1 $ NotQ $end
+$var reg 1 % D $end
+$var reg 1 & E $end
+$var reg 2 ' addr [1:0] $end
+$var reg 8 ( data [7:0] $end
+$var reg 16 ) sw [15:0] $end
+$scope module uut $end
+$var wire 1 & btnC $end
+$var wire 16 * sw [15:0] $end
+$var wire 16 + led [15:0] $end
+$scope module mem $end
+$var wire 1 , D $end
+$var wire 1 & E $end
+$var wire 1 - NotQ $end
+$var reg 1 . Q $end
+$upscope $end
+$scope module mem_sys $end
+$var wire 2 / addr [1:0] $end
+$var wire 8 0 data [7:0] $end
+$var wire 1 & store $end
+$var reg 8 1 memory [7:0] $end
+$scope begin genblk1[0] $end
+$var parameter 2 2 i $end
+$scope module inst $end
+$var wire 8 3 data [7:0] $end
+$var wire 1 4 store $end
+$var parameter 32 5 DATA_WIDTH $end
+$var reg 8 6 memory [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[1] $end
+$var parameter 2 7 i $end
+$scope module inst $end
+$var wire 8 8 data [7:0] $end
+$var wire 1 9 store $end
+$var parameter 32 : DATA_WIDTH $end
+$var reg 8 ; memory [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$var parameter 3 < i $end
+$scope module inst $end
+$var wire 8 = data [7:0] $end
+$var wire 1 > store $end
+$var parameter 32 ? DATA_WIDTH $end
+$var reg 8 @ memory [7:0] $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[3] $end
+$var parameter 3 A i $end
+$scope module inst $end
+$var wire 8 B data [7:0] $end
+$var wire 1 C store $end
+$var parameter 32 D DATA_WIDTH $end
+$var reg 8 E memory [7:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b1000 D
+b11 A
+b1000 ?
+b10 <
+b1000 :
+b1 7
+b1000 5
+b0 2
+$end
+#0
+$dumpvars
+bx E
+0C
+b0 B
+bx @
+0>
+b0 =
+bx ;
+09
+b0 8
+bx 6
+04
+b0 3
+bx 1
+b0 0
+b0 /
+x.
+x-
+0,
+bxzzzzzzxx +
+b0 *
+b0 )
+b0 (
+b0 '
+0&
+0%
+x$
+x#
+bxzzzzzzxx "
+bx !
+$end
+#1000
+b0 !
+b0 1
+b0 6
+1$
+1-
+0#
+b0zzzzzz10 "
+b0zzzzzz10 +
+0.
+14
+1&
+#2000
+04
+0&
+#4000
+1,
+b1 )
+b1 *
+1%
+#6000
+0$
+0-
+1#
+b0zzzzzz01 "
+b0zzzzzz01 +
+1.
+14
+1&
+#7000
+04
+0&
+#9000
+0,
+b0 )
+b0 *
+0%
+#11000
+b11 3
+b11 0
+b1100000000 )
+b1100000000 *
+b11 (
+#12000
+b11 !
+b11 1
+b11 6
+1$
+1-
+0#
+b11zzzzzz10 "
+b11zzzzzz10 +
+0.
+14
+1&
+#13000
+04
+0&
+#14000
+bx !
+b1100 8
+b0 3
+bxzzzzzz10 "
+bxzzzzzz10 +
+bx 1
+b1100 0
+b1 /
+b110001000000 )
+b110001000000 *
+b1 '
+b1100 (
+#15000
+b1100 !
+b1100zzzzzz10 "
+b1100zzzzzz10 +
+b1100 1
+b1100 ;
+19
+1&
+#16000
+09
+0&
+#17000
+bx !
+b110000 =
+b0 8
+bxzzzzzz10 "
+bxzzzzzz10 +
+bx 1
+b110000 0
+b10 /
+b11000010000000 )
+b11000010000000 *
+b10 '
+b110000 (
+#18000
+b110000 !
+b110000zzzzzz10 "
+b110000zzzzzz10 +
+b110000 1
+b110000 @
+1>
+1&
+#19000
+0>
+0&
+#20000
+bx !
+b11000000 B
+b0 =
+bxzzzzzz10 "
+bxzzzzzz10 +
+bx 1
+b11000000 0
+b11 /
+b1100000011000000 )
+b1100000011000000 *
+b11 '
+b11000000 (
+#21000
+b11000000 !
+b11000000zzzzzz10 "
+b11000000zzzzzz10 +
+b11000000 1
+b11000000 E
+1C
+1&
+#22000
+0C
+0&
+#23000
+b11 !
+b0 B
+b11zzzzzz10 "
+b11zzzzzz10 +
+b11 1
+b0 0
+b0 /
+b0 )
+b0 *
+b0 '
+b0 (
+#25000
+b1100 !
+b1100zzzzzz10 "
+b1100zzzzzz10 +
+b1100 1
+b1 /
+b1000000 )
+b1000000 *
+b1 '
+#27000
+b110000 !
+b110000zzzzzz10 "
+b110000zzzzzz10 +
+b110000 1
+b10 /
+b10000000 )
+b10000000 *
+b10 '
+#29000
+b11000000 !
+b11000000zzzzzz10 "
+b11000000zzzzzz10 +
+b11000000 1
+b11 /
+b11000000 )
+b11000000 *
+b11 '
+#31000
